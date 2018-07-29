@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_height="match_parent" android:background="@color/White"
+
+    android:layout_width="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:text=""
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <!--<ImageView-->
+                <!--android:id="@+id/upper_cable"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="250dp"-->
+                <!--android:src="@drawable/upper_cable" />-->
+
+            <ImageView
+                android:id="@+id/iv"
+                android:src="@drawable/mipmaplogo"
+                android:layout_width="250dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="150dp"
+                android:layout_gravity="center" />
+
+
+
+            <TextView
+                android:id="@+id/splashText"
+                android:text="Admin Panel | TK Inc."
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:inputType="numberPassword"
+                android:id="@+id/enterPass"
+                android:layout_gravity="center"
+                android:alpha="0"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:drawableStart="@drawable/ic_vpn_key_black_24dp"
+                android:background="@drawable/autotextbg"
+                android:textColor="@color/colorPrimaryDark"
+                android:hint="Yönetici şifrenizi giriniz:"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp" />
+
+            <Button
+                android:id="@+id/loginButton"
+                android:text="Giriş"
+                android:textColor="@color/White"
+                android:textStyle="bold"
+                android:layout_marginTop="25dp"
+                android:paddingStart="25dp"
+                android:paddingEnd="25dp"
+                android:background="@drawable/primarybutton"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+            <!--<ImageView-->
+                <!--android:id="@+id/lower_cable"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="250dp"-->
+                <!--android:src="@drawable/lower_cable"-->
+                <!--android:layout_gravity="bottom"-->
+                <!--android:gravity="bottom"/>-->
+        </LinearLayout>
+
+    </RelativeLayout>
+
